@@ -15,4 +15,8 @@ public class TestController {
     public String method1(){
         return "method1";
     }
+    @RequestMapping("method2")
+    public String method2(){
+        return "method2";
+    }
 }
